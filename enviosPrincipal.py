@@ -3,6 +3,13 @@ from comandos import *
 from linksDeNavegacion import *
 from resolucionPantalla import *
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
 def enviosPrinc(numRemision):
     print(numRemision)
     
@@ -10,8 +17,20 @@ def enviosPrinc(numRemision):
     escribirMensaje(baseGuias)
     esperarSegundos(1)
     teclaEnter()
+<<<<<<< HEAD
     esperarSegundos(4)
     variasVecesTeclas(teclaDerecha,7,1)
+=======
+    esperarSegundos(5)
+    buscarEnSheets()
+    esperarSegundos(1)
+    escribirMensaje(numRemision)
+    teclaEnter()
+    esperarSegundos(1)
+    teclaEsc()
+    esperarSegundos(2)
+    variasVecesTeclas(teclaDerecha,2,1)
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
     controlC()
     numeroCel=pyperclip.paste()
     print(numeroCel)
@@ -65,6 +84,12 @@ def enviosPrinc(numRemision):
     teclaEnter()
     esperarSegundos(5)
     archivarchat()
+<<<<<<< HEAD
+=======
+    esperarSegundos(5)
+    cerrarpestaña()
+    esperarSegundos(5)
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
     marcarComoHecho(numRemision)
 def marcarComoHecho(numRemision):
     irNumeroVentana(2)
@@ -170,5 +195,8 @@ def acutalizacionFinal (numRemision):
     irNumeroVentana(1)
     
 
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049

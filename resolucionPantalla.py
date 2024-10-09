@@ -96,7 +96,11 @@ import os
 import json
 from comandos import *
 
+<<<<<<< HEAD
 def centralResolucion():
+=======
+def central():
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
     def guardar_posicion(paso, x, y):
         posiciones = cargar_posiciones()
         posiciones[paso] = {'x': x, 'y': y}
@@ -181,3 +185,7 @@ def centralResolucion():
 
     if __name__ == '__main__':
         main()
+<<<<<<< HEAD
+=======
+central()
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049

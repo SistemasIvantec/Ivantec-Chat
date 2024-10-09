@@ -6,3 +6,7 @@ listaMadraRemisionesColumnaL="https://docs.google.com/spreadsheets/d/1Y41ih-3lTy
 baseGuias="https://docs.google.com/spreadsheets/d/1wt_T6xSyIE93pd2Fhf-pV2UK4FFX0mjj4qlAyMcZFhU/edit?gid=934145763#gid=934145763&range=A2"
 guias="https://docs.google.com/spreadsheets/d/1W4Z2kSAzsOx4RpfbtO0OxBpA_ZTuBjJi3KQhFmZWhAE/edit?gid=1012940061#gid=1012940061&range=A1"
 tablaDinamicaGuia="https://docs.google.com/spreadsheets/d/1W4Z2kSAzsOx4RpfbtO0OxBpA_ZTuBjJi3KQhFmZWhAE/edit?gid=1074996933#gid=1074996933&range=A1"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
