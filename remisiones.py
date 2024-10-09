@@ -18,14 +18,6 @@ def abrirpestaña(numeroremision):
     variasVecesTeclas(flechaAbajo,9,0.5)
     controlC()  
     esperarSegundos(1)
-    esperarSegundos(5)
-    escribirMensaje(numeroremision)
-    esperarSegundos(4)
-    teclaEnter()    
-    variasVecesTeclas(flechaAbajo,9,0.5)
-    esperarSegundos(3)
-    controlC()  
-    esperarSegundos(3)
     numeroCliente=pyperclip.paste()
     esperarSegundos(1)
     print("el numero es:" ,numeroCliente)
@@ -51,18 +43,6 @@ def marcarComoHecho():
     esperarSegundos(1)
     irNumeroVentana(2)
     cerrarpestaña()
-    esperarSegundos(2)
-    teclaEnter()
-    teclaDerecha()
-    teclaIzquierda()
-    esperarSegundos(5)
-    cerrarpestaña()
-    esperarSegundos(2)
-    irNumeroVentana(2)
-    esperarSegundos(2)
-    cerrarpestaña()
-    esperarSegundos(2)
-    irNumeroVentana(1)
     
     
     
@@ -90,8 +70,6 @@ def enviarwhatsapp(numero):
     xmouse4, ymouse4 = posiciones["4"]["x"], posiciones["4"]["y"]
     #Escribir Cha
     xmouse5, ymouse5 = posiciones["5"]["x"], posiciones["5"]["y"]
-    if xmouse4 and xmouse5 == "":
-        central()        
 
     enviarMouse(xmouse4,ymouse4)
     clickIzquierdo()
@@ -99,36 +77,36 @@ def enviarwhatsapp(numero):
     clickIzquierdo()
     
     controlv()
-    esperarSegundos(3)
+    esperarSegundos(1)
     teclaEnter()
 
 
 
 
 
-    esperarSegundos(3)
+    esperarSegundos(1)
     enviarMouse(xmouse5,ymouse5)
     clickIzquierdo()
-    esperarSegundos(0.3)
+    
     volverAtras()
-    esperarSegundos(1)
     teclaEnter()
     
     flechaAbajo()
     teclaEnter()
-    esperarSegundos(3)
-    variasVecesTeclas(teclaTab,9,1)
     esperarSegundos(2)
+    variasVecesTeclas(teclaTab,9,1)
+    esperarSegundos(1)
     teclaDerecha()
     teclaIzquierda()
-    esperarSegundos(2)    
+    esperarSegundos(1)    
     teclaEnter()
     esperarSegundos(6)
     teclaEnter()
     esperarSegundos(3)
     archivarchat()
-    esperarSegundos(10)
+    esperarSegundos(5)
     cerrarpestaña()
+    esperarSegundos(5)
     
     marcarComoHecho()
     
