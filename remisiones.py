@@ -16,7 +16,7 @@ def abrirpestaña(numeroremision):
     escribirMensaje(numeroremision)
     teclaEnter()
     variasVecesTeclas(flechaAbajo,9,0.5)
-    esperarSegundos(2)
+    esperarSegundos(5)
     controlC()  
     esperarSegundos(1)
     numeroCliente=pyperclip.paste()
