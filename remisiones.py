@@ -36,14 +36,11 @@ def marcarComoHecho():
     flechaAbajo()
     escribirMensaje("SI")
     variasVecesTeclas(flechaAbajo,2,1)
-    irNumeroVentana(3)
+    esperarSegundos(2)
     cerrarpestaña()
-    irNumeroVentana(3)
+    esperarSegundos(2)
     cerrarpestaña()
-    irNumeroVentana(1)
-    esperarSegundos(1)
-    irNumeroVentana(2)
-    cerrarpestaña()
+    
     
     
     
