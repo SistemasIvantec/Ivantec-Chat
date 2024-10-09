@@ -102,26 +102,11 @@ def cargar_posiciones():
     with open('posiciones_mouse.json', 'r') as file:
         posiciones = json.load(file)
     return posiciones
-<<<<<<< HEAD
-def pegarEnVariable():
-    return pyperclip.paste()
-=======
 def teclaEsc():
     pyautogui.press('esc')
->>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
 def abrirvinculo():
     pyautogui.hotkey( 'alt', 'enter')
 def buscarEnSheets():
     pyautogui.hotkey( 'ctrl', 'h')
-<<<<<<< HEAD
-def teclaEsc():
-    pyautogui.press('esc')
-
-
-
-
-
-=======
 def pegarEnVariable():
     return pyperclip.paste()
->>>>>>> 603de4d88da8eded7a5cecf36445a7454aa9f049
