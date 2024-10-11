@@ -19,7 +19,10 @@ teclaEnter()
 
 
 while True:
-    esperarSegundos(8)                                  
+
+    esperarSegundos(2)
+    actualizarf5()
+    esperarSegundos(8)
 
     
     teclaEsc()

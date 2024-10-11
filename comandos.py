@@ -110,3 +110,5 @@ def buscarEnSheets():
     pyautogui.hotkey( 'ctrl', 'h')
 def pegarEnVariable():
     return pyperclip.paste()
+def actualizarf5():
+    pyautogui.press('f5')
