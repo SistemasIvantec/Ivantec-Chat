@@ -21,7 +21,7 @@ def enviosPrinc(numRemision):
     teclaEnter()
     esperarSegundos(1)
     teclaEsc()
-    esperarSegundos(2)
+    esperarSegundos(5)
     variasVecesTeclas(teclaDerecha,2,1)
     controlC()
     numeroCel=pyperclip.paste()
