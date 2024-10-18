@@ -3,6 +3,7 @@ from linksDeNavegacion import *
 import pyperclip
 from remisiones import *
 from enviosPrincipal import *
+from Recepcion import *
 
 
 abrirInicioYAbrirChrome()                                   
@@ -39,12 +40,16 @@ while True:
         for i in range (60):
             esperarSegundos(1)
             print(i)
-
+#Guias
     elif filaDeEspera[:4] == "NTF-":
         filaDeEspera=filaDeEspera
         enviosPrinc(filaDeEspera)
-
+#Remisiones
     elif filaDeEspera[:6] == "XO IVT":
         filaDeEspera=filaDeEspera
         abrirpestaña(filaDeEspera)
+#Tareas Recepcion    
+    elif filaDeEspera[:6] == "TASK I":
+        filaDeEspera=filaDeEspera
+        abrirpestañaTask(filaDeEspera)
     
