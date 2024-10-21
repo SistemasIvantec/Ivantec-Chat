@@ -29,12 +29,18 @@ def enviarnotificacionTarea(id_task):
     esperarSegundos(2)
     numTelDestinatario=pyperclip.paste()
     esperarSegundos(2)
-    variasVecesTeclas(teclaDerecha,2,0.3)
+    #Copia fecha para buscar
+    variasVecesTeclas(teclaIzquierda,4,0.3)
     esperarSegundos(2)
     controlC()
-    enviarWhatsapp(numTelDestinatario,id_task)
+    idPorFechaDestinatario=pyperclip.paste()  
+    esperarSegundos(1)
+    variasVecesTeclas(teclaDerecha,6,0.3)
+    esperarSegundos(2)
+    controlC()
+    enviarWhatsapp(numTelDestinatario,idPorFechaDestinatario)
 
-def enviarWhatsapp(numCel,idtask):
+def enviarWhatsapp(numCel,fecha):
     abrirwhatsapp()
     esperarSegundos(1)
     nuevoChat()
@@ -64,19 +70,32 @@ def enviarWhatsapp(numCel,idtask):
 
     cerrarpestaña()
 
-    marcarcomoEnviado(idtask)
+    marcarcomoEnviado(fecha)
 
 
-def marcarcomoEnviado(idtask):
+def marcarcomoEnviado(fecha):
     irNumeroVentana(2)    
-    pasarDePestañaEnSheet()
+    cerrarpestaña()    
+    esperarSegundos(0.5)
+    nuevapestaña()
+    escribirMensaje(baseTareasMensaje)
+    teclaEnter()
+    esperarSegundos(5)
+
     esperarSegundos(1)
     buscarEnSheets()
-    escribirMensaje(idtask)
+    escribirMensaje(fecha)
     teclaEnter()
     esperarSegundos(2)
     teclaEsc()
+    esperarSegundos(0.5)
+    variasVecesTeclas(teclaDerecha,8,0.3)
+    escribirMensaje("ok")
+    teclaEnter()
+    esperarSegundos(1)
+    cerrarpestaña()
 
+    
 
     
 
