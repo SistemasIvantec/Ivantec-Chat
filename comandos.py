@@ -114,3 +114,6 @@ def actualizarf5():
     pyautogui.press('f5')
 def pasarDePestañaEnSheet():
     pyautogui.hotkey('alt' + 'up')
+def teclaBorrar():
+    pyautogui.press("backspace")
+    

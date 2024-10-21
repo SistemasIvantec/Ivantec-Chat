@@ -57,6 +57,10 @@ def enviarWhatsapp(numCel,idtask):
     controlv()
     esperarSegundos(3)
     teclaEnter()
+    
+    esperarSegundos(1)
+    teclaBorrar()
+    esperarSegundos(1)
 
     cerrarpestaña()
 
@@ -72,7 +76,7 @@ def marcarcomoEnviado(idtask):
     teclaEnter()
     esperarSegundos(2)
     teclaEsc()
-    
+
 
     
 
