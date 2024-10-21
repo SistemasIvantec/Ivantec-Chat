@@ -23,6 +23,7 @@ def abrirpestañaLTask(id_Tarea):
     
     
 def enviarnotificacionTarea(id_Tarea):
+    esperarSegundos(1)
     
     variasVecesTeclas(teclaIzquierda,1,0.3)
     controlC()
