@@ -3,6 +3,10 @@ from comandos import *
 from linksDeNavegacion import *
 from resolucionPantalla import *
 
+
+
+
+
 def abrirpestañaTask(id_Tarea):
     nuevapestaña()
     escribirMensaje(baseTareasMensaje)
@@ -61,6 +65,8 @@ def enviarWhatsapp(numCel):
 def marcarcomoEnviado():
     irNumeroVentana(2)    
     
+    
 
     
 
+abrirpestañaTask("TASK IVTJUAN ORJUELA3057960502")
