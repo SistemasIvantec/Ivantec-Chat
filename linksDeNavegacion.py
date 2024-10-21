@@ -11,3 +11,4 @@ baseTareasMensaje="https://docs.google.com/spreadsheets/d/1huEIe2tQfJMe5SrEKAKiZ
 baseMayorTareas="https://docs.google.com/spreadsheets/d/1huEIe2tQfJMe5SrEKAKiZdzBfcRFJn_a2j7v5puOItY/edit?gid=0#gid=0&range=A1"
 
 #Pendiente
+baseLtalsk="https://docs.google.com/spreadsheets/d/1huEIe2tQfJMe5SrEKAKiZdzBfcRFJn_a2j7v5puOItY/edit?gid=1668002708#gid=1668002708&range=A1"

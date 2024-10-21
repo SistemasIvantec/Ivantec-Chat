@@ -4,7 +4,7 @@ import pyperclip
 from remisiones import *
 from enviosPrincipal import *
 from Recepcion import *
-
+from SegundoNivelRecp import *
 
 abrirInicioYAbrirChrome()                                   
 
@@ -52,4 +52,8 @@ while True:
     elif filaDeEspera[:6] == "TASK I":
         filaDeEspera=filaDeEspera
         abrirpestañaTask(filaDeEspera)
+#Tareas Segundo Nivel
+    elif filaDeEspera[:6] == "LTASK ":
+        filaDeEspera=filaDeEspera
+        abrirpestañaLTask(filaDeEspera)
     
