@@ -8,4 +8,6 @@ guias="https://docs.google.com/spreadsheets/d/1W4Z2kSAzsOx4RpfbtO0OxBpA_ZTuBjJi3
 tablaDinamicaGuia="https://docs.google.com/spreadsheets/d/1W4Z2kSAzsOx4RpfbtO0OxBpA_ZTuBjJi3KQhFmZWhAE/edit?gid=1074996933#gid=1074996933&range=A1"
 
 baseTareasMensaje="https://docs.google.com/spreadsheets/d/1huEIe2tQfJMe5SrEKAKiZdzBfcRFJn_a2j7v5puOItY/edit?gid=1558067053#gid=1558067053&range=A2"
+baseMayorTareas="https://docs.google.com/spreadsheets/d/1huEIe2tQfJMe5SrEKAKiZdzBfcRFJn_a2j7v5puOItY/edit?gid=0#gid=0&range=A1"
+
 #Pendiente
