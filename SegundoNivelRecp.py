@@ -97,4 +97,3 @@ def marcarcomoEnviado(id_tarea):
     
 esperarSegundos(5)
 
-abrirpestañaLTask("LTASK IVTJUAN ORJUELA305796050245583,6596990741")
