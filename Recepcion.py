@@ -32,9 +32,9 @@ def enviarnotificacionTarea(id_task):
     variasVecesTeclas(teclaDerecha,2,0.3)
     esperarSegundos(2)
     controlC()
-    enviarWhatsapp(numTelDestinatario)
+    enviarWhatsapp(numTelDestinatario,id_task)
 
-def enviarWhatsapp(numCel):
+def enviarWhatsapp(numCel,idtask):
     abrirwhatsapp()
     esperarSegundos(1)
     nuevoChat()
@@ -55,17 +55,25 @@ def enviarWhatsapp(numCel):
     clickIzquierdo()
     
     controlv()
-    esperarSegundos(1)
+    esperarSegundos(3)
     teclaEnter()
 
     cerrarpestaña()
 
-    marcarcomoEnviado()
+    marcarcomoEnviado(idtask)
 
 
-def marcarcomoEnviado():
+def marcarcomoEnviado(idtask):
     irNumeroVentana(2)    
+    pasarDePestañaEnSheet()
+    esperarSegundos(1)
+    buscarEnSheets()
+    escribirMensaje(idtask)
+    teclaEnter()
+    esperarSegundos(2)
+    teclaEsc()
     
+
     
 
     
