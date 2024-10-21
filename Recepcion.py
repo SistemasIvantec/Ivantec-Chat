@@ -27,5 +27,40 @@ def enviarnotificacionTarea():
     variasVecesTeclas(teclaDerecha,2,0.3)
     esperarSegundos(2)
     controlC()
+    enviarWhatsapp(numTelDestinatario)
+
+def enviarWhatsapp(numCel):
     abrirwhatsapp()
+    esperarSegundos(1)
+    nuevoChat()
+    esperarSegundos(3)
+    escribirMensaje(numCel)
+    esperarSegundos(4)
+    posiciones = cargar_posiciones()
+
+    
+    #Nuevo Chat
+    xmouse4, ymouse4 = posiciones["4"]["x"], posiciones["4"]["y"]
+    #Escribir Cha
+    xmouse5, ymouse5 = posiciones["5"]["x"], posiciones["5"]["y"]
+
+    enviarMouse(xmouse4,ymouse4)
+    clickIzquierdo()
+    enviarMouse(xmouse5,ymouse5)
+    clickIzquierdo()
+    
+    controlv()
+    esperarSegundos(1)
+    teclaEnter()
+
+    cerrarpestaña()
+
+    marcarcomoEnviado()
+
+
+def marcarcomoEnviado():
+    irNumeroVentana(2)    
+    
+
+    
 
