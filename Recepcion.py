@@ -78,7 +78,7 @@ def marcarcomoEnviado(fecha):
     cerrarpestaña()    
     esperarSegundos(0.5)
     nuevapestaña()
-    escribirMensaje(baseTareasMensaje)
+    escribirMensaje(baseMayorTareas)
     teclaEnter()
     esperarSegundos(5)
 
