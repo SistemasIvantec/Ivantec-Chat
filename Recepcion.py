@@ -16,12 +16,13 @@ def abrirpestañaTask(id_Tarea):
     controlC()
     esperarSegundos(2)
     id_task=pyperclip.paste()
-    if id_task== id_Tarea:
+    print(id_Tarea+" "+id_task)
+    if id_task==id_Tarea:
         enviarnotificacionTarea(id_task)
 
     
     
-def enviarnotificacionTarea():
+def enviarnotificacionTarea(id_task):
     print("holi")
     variasVecesTeclas(teclaIzquierda,1,0.3)
     controlC()
