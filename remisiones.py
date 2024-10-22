@@ -15,7 +15,7 @@ def abrirpestaña(numeroremision):
     esperarSegundos(3)
     escribirMensaje(numeroremision)
     teclaEnter()
-    variasVecesTeclas(flechaAbajo,9,0.5)
+    variasVecesTeclas(flechaAbajo,9,1)
     esperarSegundos(5)
     controlC()  
     esperarSegundos(1)
