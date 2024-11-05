@@ -6,9 +6,9 @@ from resolucionPantalla import *
 
 
 
-
+"""
 def enviosPrinc(numRemision):
-    """
+    
     print(numRemision)
     
     nuevapestaña()
@@ -184,7 +184,23 @@ def acutalizacionFinal (numRemision):
     cerrarpestaña()
     irNumeroVentana(1)
     """
+def enviosPrinc(numRemision):
+    nuevapestaña()
+    esperarSegundos
+    escribirMensaje(guias)
+    teclaEnter()
+    esperarSegundos(5)
+    buscarEnSheets()
+    escribirMensaje(numRemision)
+    esperarSegundos(1)
+    teclaEnter()
+    esperarSegundos(1)
+    teclaEsc()
+    esperarSegundos()
 
+
+esperarSegundos(4)
 enviosPrinc("NTF-GXO IVT-5678")
     
+
 
