@@ -197,6 +197,18 @@ def enviosPrinc(numRemision):
     esperarSegundos(1)
     teclaEsc()
     esperarSegundos()
+    controlC()
+    esperarSegundos(2)
+    numeroCliente=pyperclip.paste()
+    esperarSegundos(2)
+def abrirWhatsapp():
+    nuevapestaña()
+    nuevapestaña()  
+    escribirMensaje(linkwhatsapp)
+    teclaEnter()
+    irNumeroVentana(1)
+    
+
 
 
 esperarSegundos(4)
