@@ -40,12 +40,12 @@ while True:
         for i in range (60):
             esperarSegundos(1)
             print(i)
-            """
+            
 #Guias
     elif filaDeEspera[:4] == "NTF-":
         filaDeEspera=filaDeEspera
         enviosPrinc(filaDeEspera)
-        """
+        
 #Remisiones
     elif filaDeEspera[:6] == "XO IVT":
         filaDeEspera=filaDeEspera
