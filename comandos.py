@@ -22,6 +22,7 @@ def abrirInicioYAbrirChrome():
 def buscarYAbrirChrome():
     pyautogui.press
 def posicionMouse():
+    esperarSegundos(5)
     # Obtener la posición actual del mouse
     x, y = pyautogui.position()
     # Imprimir la posición del mouse
